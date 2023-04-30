@@ -1,0 +1,51 @@
+a {
+    color: darken($color-primary, 5%);
+    @include transition (all 0.4s ease-in-out);
+
+    &:hover {
+        text-decoration: underline;
+        color: darken($color-primary, 10%);
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+code {
+    background: $gray-900;
+    color: $white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    padding: 4px 8px 2px 8px;
+    display: inline-block;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+/* ====== Header ====== */
+.header {
+    background: $gray-900;
+    color: $gray-100;
+    padding: 45px 0;
+
+    a { color: $white; }
+
+    .container {
+	    position: relative;
+    }
+
+    .logo {
+        max-height: 80px;
+    }
+}
+
+/* ====== Footer ====== */
+.footer {
+    .container {
+        padding: 30px 0;
+    }
+}

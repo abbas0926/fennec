@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import "themes/living-coral/variables/palette";
+@import "docs/variables";
+
+// Overriding Bootstrap
+@import "themes/living-coral/variables/override";
+@import "laapp/bootstrap";
+@import "laapp/reset";
+
+@import "themes/living-coral/variables/reset";
+@import "themes/living-coral/variables/utilities";
+@import "laapp/variables/base/fonts";
+
+//@import "laapp/pages/sections/base";
+@import "laapp/core/utilities/text";
+@import "laapp/core/utilities/type";
+
+// Import third party libraries. Do not remove these references.
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Import theme styles
+@import "docs/mixins";
+@import "docs/base";
+@import "docs/doc";

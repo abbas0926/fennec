@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.13.0",
+        "angled-edges": "^2.0.0",
+        "aos": "^2.3.4",
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
+        "jquery-validation": "^1.19.2",
+        "odometer": "^0.4.8",
+        "pe7-icon": "^1.0.4",
+        "popper.js": "^1.16.1",
+        "prismjs": "^1.20.0",
+        "swiper": "^5.4.2",
+        "tilt.js": "^1.2.1"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0",
+        "laravel-mix": "^5.0.1",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "browserslist": {
+        "development": "last 1 version",
+        "production": ">2%, Firefox ESR"
+    }
+}
