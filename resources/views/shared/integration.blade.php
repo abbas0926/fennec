@@ -1,4 +1,4 @@
-<!-- Integrations -->
+<!-- Intégrations -->
 <section class="section integration-bubbles">
     <div class="container overflow-hidden">
         <div class="row">
@@ -18,17 +18,16 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-6">
                 <div class="section-heading">
-                    <p class="text-alternate text-uppercase bold">Extending core</p>
-                    <h2 class="heading-line">Integrations to make it better</h2>
+                    <p class="text-alternate text-uppercase bold">Développement avancé</p>
+                    <h2 class="heading-line">Intégrations pour améliorer votre expérience</h2>
                     <p class="lead text-muted">
-                        Ever wonder about the wonder of Laap: We count on hundreds of friends contributing day by day to make Laapp a wonderful tool
+                        Vous vous demandez pourquoi choisir Fennec Tech? Nous comptons sur des centaines d'amis contribuant chaque jour pour rendre Fennec Tech un outil merveilleux
                     </p>
                 </div>
-
-                <a href="#!" class="more-link">Explore all integration</a>
+    
+                <a href="#!" class="more-link">Explorer toutes les intégrations</a>
             </div>
         </div>
     </div>

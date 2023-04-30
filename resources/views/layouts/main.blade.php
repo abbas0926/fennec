@@ -13,7 +13,10 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="{{ asset("apple-touch-icon.png") }}">
     <link rel="icon" href="{{ asset ("img/favicon.ico")}}">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,600,700,900" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ mix('css/laapp.css') }}">
 </head>

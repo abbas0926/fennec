@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'IndexController@index');
+Route::get('/', 'Alt3Controller@index');
 Route::post('/register', 'RegisterController@index');
 
 Route::get('/alt-1', 'Alt1Controller@index');

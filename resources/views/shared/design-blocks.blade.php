@@ -1,4 +1,4 @@
-<!-- Powered Design Blocks -->
+<!-- Blocs de conception propulsés -->
 <section class="section powered-design" id="product">
     <div class="shapes-container">
         <div class="shape shape-circle shape-circle-1">
@@ -13,21 +13,20 @@
         <div class="shape shape-triangle shape-animated">
             <div class="animation--rotating"></div>
         </div>
-
         <div class="shape pattern-dots-1"></div>
     </div>
-
+    
     <div class="container">
         <div class="row gap-y align-items-center">
             <div class="col-md-6">
                 <div class="section-heading">
-                    <h2 class="heading-line">Powered with multiple design blocks</h2>
-                    <p class="lead text-muted">Unlock the power of Web Design. Laapp comes with multiple reusable code blocks you can use to build awesome web pages.</p>
+                    <h2 class="heading-line">Propulsé avec des blocs de conception multiples</h2>
+                    <p class="lead text-muted">Débloquez le pouvoir du design Web. Fennec Tech vient avec plusieurs blocs de code réutilisables que vous pouvez utiliser pour créer des pages Web impressionnantes.</p>
                 </div>
-
-                <a href="#!" class="btn btn-outline-alternate more-link mt-0">Now is the time</a>
+    
+                <a href="#!" class="btn btn-outline-alternate more-link mt-0">C'est maintenant le moment</a>
             </div>
-
+    
             <div class="col-md-6">
                 @for ($i = 1; $i <= 3; $i++)
                 <div class="rounded tilt overflow-hidden shadow-box shadow-hover bg-contrast{{ $i > 1 ? " mt-5" : "" }}">
@@ -39,4 +38,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> 
